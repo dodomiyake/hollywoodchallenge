@@ -63,8 +63,9 @@ const ProductCard = () => {
                     Frontend Mentor
                 </a>
                 . Coded by{" "}
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a 
-                    href="#" 
+                    href="#"  
                     className="text-green500 hover:text-green700 transition-colors duration-200"
                 >
                     Oluwadamilola Ajayi
