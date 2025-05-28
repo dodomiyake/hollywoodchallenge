@@ -32,10 +32,16 @@ const ProductCard = () => {
 
                     {/* PRICE */}
                     <div className="flex items-center gap-5 mt-1">
-                        <span className="text-green500 text-[32px] font-bold font-fraunces leading-[32px]" role="text" aria-label="Current price: $149.99">
+                        <span 
+                            className="text-green500 text-[32px] font-bold font-fraunces leading-[32px]"
+                            aria-label="Current price: $149.99"
+                        >
                             $149.99
                         </span>
-                        <span className="line-through text-grey text-[13px] font-montserrat" role="text" aria-label="Original price: $169.99">
+                        <span 
+                            className="line-through text-grey text-[13px] font-montserrat"
+                            aria-label="Original price: $169.99"
+                        >
                             $169.99
                         </span>
                     </div>
