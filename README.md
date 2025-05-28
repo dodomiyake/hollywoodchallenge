@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://github.com/dodomiyake/hollywoodchallenge)
 - [Solution GitHub Repo](https://github.com/dodomiyake/product-preview-card)
 
 ## My process
@@ -64,14 +64,16 @@ This challenge helped me solidify my understanding of:
 - How to handle image rendering for different breakpoints
 - Accessibility best practices: `hover`, `focus`, and `alt` attributes
 
-Here’s a snippet I’m particularly proud of — it conditionally rounds the image for desktop and mobile:
+Here’s a snippet I’m particularly proud of — it ensures the image fits for desktop and mobile:
 
 ```jsx
-<img
-  src={productImg}
-  alt="Gabrielle Essence Eau De Parfum"
-  className="w-full h-full object-cover rounded-t-xl md:rounded-t-none md:rounded-l-xl"
-/>
+<figure className="h-[240px] md:h-auto md:w-1/2">
+    <img
+        src={productImg}
+        alt="Gabrielle Essence Eau De Parfum"
+        className="w-full h-full object-cover"
+    />
+</figure>
 ```
 
 ### Continued development
