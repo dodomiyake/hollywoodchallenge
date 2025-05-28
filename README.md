@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- [Live Site URL](https://github.com/dodomiyake/hollywoodchallenge)
-- [Solution GitHub Repo](https://github.com/dodomiyake/product-preview-card)
+- [Live Site URL](https://hollywoodchallenge.onrender.com/)
+- [Solution GitHub Repo](https://github.com/dodomiyake/hollywoodchallenge)
 
 ## My process
 
